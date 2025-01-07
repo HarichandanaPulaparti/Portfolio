@@ -1,0 +1,53 @@
+.timeline-item {
+  display: flex;
+  align-items: flex-start; /* Align the items at the top */
+  justify-content: flex-start; /* Align everything to the left */
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  gap: 20px; /* Adds consistent spacing between logo and text */
+}
+
+.timeline-logo {
+  flex-shrink: 0;
+  width: 60px; /* Standardize the width of logos */
+  height: 60px; /* Standardize the height of logos */
+  border-radius: 50%; /* Keep rounded styling */
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline-logo img {
+  width: 70%; /* Scale image within the logo container */
+  height: auto;
+}
+
+.timeline-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left; /* Force text alignment to the left */
+}
+
+.timeline-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.timeline-details p {
+  margin: 5px 0 0 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.timeline-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,26 @@
+/* This is the main container for both components */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures that padding and border do not affect the width and height */
+}
+
+.app-container {
+  display: flex; /* This will make child elements display side by side */
+  height: 100vh; /* Make sure the container takes full screen height */
+}
+
+/* Style for the background component (Image container) */
+.background {
+  flex: 1; 
+  overflow: hidden;/* Background takes up remaining space */
+}
+
+/* Style for the content component */
+.content {
+  flex: 1; /* Content takes up remaining space */
+  background-color: #ffdfba;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center;
+}
